@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global CEO Indonesia - Luxury Black & Gold Design System
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Luxury Dark Theme */
+    --background: 0 0% 5%;
+    --foreground: 45 100% 85%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 45 100% 85%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 45 100% 85%;
+
+    /* Gold Primary Colors */
+    --primary: 45 100% 65%;
+    --primary-foreground: 0 0% 5%;
+    
+    /* Premium Gold Variants */
+    --gold: 45 100% 65%;
+    --gold-light: 45 100% 75%;
+    --gold-dark: 45 100% 55%;
+    --gold-muted: 45 50% 45%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 45 100% 85%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 45 20% 60%;
+
+    --accent: 45 100% 65%;
+    --accent-foreground: 0 0% 5%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 45 100% 65%;
+
+    --radius: 0.75rem;
+    
+    /* Custom Luxury Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 65%), hsl(45 100% 75%));
+    --gradient-gold-subtle: linear-gradient(135deg, hsl(45 100% 65% / 0.1), hsl(45 100% 75% / 0.2));
+    --gradient-dark: linear-gradient(135deg, hsl(0 0% 5%), hsl(0 0% 8%));
+    
+    /* Luxury Shadows */
+    --shadow-gold: 0 10px 30px -10px hsl(45 100% 65% / 0.3);
+    --shadow-gold-glow: 0 0 40px hsl(45 100% 65% / 0.4);
+    --shadow-elegant: 0 20px 60px -20px hsl(0 0% 0% / 0.5);
+    
+    /* Animation Variables */
+    --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Luxury theme is the default - no dark mode toggle needed */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-montserrat;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer components {
+  /* Luxury Button Variants */
+  .btn-gold {
+    @apply bg-gradient-to-r from-gold to-gold-light text-primary-foreground;
+    @apply transition-all duration-300 px-8 py-3 rounded-lg font-montserrat font-semibold;
+    box-shadow: var(--shadow-gold-glow);
+  }
+  
+  .btn-gold:hover {
+    box-shadow: var(--shadow-gold-glow);
+  }
+  
+  .btn-gold-outline {
+    @apply border-2 border-gold text-gold bg-transparent;
+    @apply hover:bg-gold hover:text-primary-foreground;
+    @apply transition-all duration-300 px-8 py-3 rounded-lg font-montserrat font-semibold;
+  }
+  
+  /* Animation Classes */
+  .fade-in-up {
+    @apply opacity-0 translate-y-10;
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  .fade-in-up-delay-1 {
+    @apply opacity-0 translate-y-10;
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+  }
+  
+  .fade-in-up-delay-2 {
+    @apply opacity-0 translate-y-10;
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+  }
+  
+  .gold-glow {
+    @apply transition-all duration-300;
+  }
+  
+  .gold-glow:hover {
+    box-shadow: var(--shadow-gold-glow);
+  }
+  
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
+    @apply font-montserrat text-foreground;
+  }
+
+  .prose blockquote {
+    @apply border-l-gold text-foreground;
+  }
+
+  .prose code {
+    @apply bg-gold/10 text-gold px-2 py-1 rounded;
+  }
+
+  .prose pre {
+    @apply bg-muted border border-gold/20 rounded-lg;
+  }
+
+  .prose a {
+    @apply text-gold hover:text-gold-light transition-colors;
+  }
+
+  .prose ul li::marker,
+  .prose ol li::marker {
+    @apply text-gold;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hero Shimmer Animation */
+@keyframes shimmer {
+  0% { 
+    transform: translateX(-100%) skewX(-12deg); 
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% { 
+    transform: translateX(200vw) skewX(-12deg);
+    opacity: 0.3;
+  }
+}
+
+/* Accessibility: Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .animate-crossfade,
+  .animate-particles,
+  .animate-glow,
+  .animate-fade-in,
+  .animate-slide-down {
+    animation: none !important;
+  }
+  
+  .animate-crossfade {
+    opacity: 1 !important;
+  }
+  
+  .animate-crossfade:not(:first-child) {
+    opacity: 0 !important;
+  }
+  
+  /* Disable all transforms and transitions for motion-sensitive users */
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
