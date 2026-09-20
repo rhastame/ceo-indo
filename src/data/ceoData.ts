@@ -36,21 +36,20 @@ export interface CEOProfile {
 
 export const ceoProfiles: CEOProfile[] = [
   {
-    id: "9",
+    id: "51",
     slug: "rudi-eko-hartono",
     name: "Rudi Eko Hartono",
     title: "Direktur",
     company: "PT Tudung Putra Putri Jaya",
-    industry: "Tourism & Hospitality",
-    province: "Yogyakarta",
-    image: getProfileImage("Rudi Eko .jpeg"),
-    bio: "Tourism technology expert creating digital solutions to promote Indonesian cultural heritage and sustainable tourism.",
-    expertise: ["Tourism Technology", "Cultural Heritage", "Sustainable Tourism", "Digital Marketing"],
-    contact: {
-      email: "rudi.hermawan@tourismtech.id",
-      website: "https://tourismtech.id"
-    },
-    highlights: ["Indonesia Tourism Innovation Award", "Cultural Heritage Digital Pioneer"],
+    industry: "Technology",
+    province: "Nasional",
+    image: getProfileImage("Rudi Eko Hartono.jpeg"),
+    bio: "Direktur PT Tudung Putra Putri Jaya.",
+    expertise: ["Business Strategy", "Business Leadership"],
+    contact: {},
+    highlights: [
+      "Direktur PT Tudung Putra Putri Jaya"
+    ],
   },
   {
     id: "18",
@@ -61,9 +60,7 @@ export const ceoProfiles: CEOProfile[] = [
     industry: "Business Leadership",
     province: "Nasional",
     image: getProfileImage("Trisya Suherman.png"),
-
     bio: "Pengusaha dan pemimpin bisnis Indonesia dengan pengalaman di bidang hospitality, wellness, property, food & beverage, dan pengembangan kewirausahaan. Pendiri Bambu Spa dan Ketua Umum Global CEO Indonesia periode 2025–2030.",
-
     expertise: [
       "Business Leadership",
       "Entrepreneurship",
@@ -72,9 +69,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Property",
       "Business Development"
     ],
-
     contact: {},
-
     highlights: [
       "Ketua Umum Global CEO Indonesia 2025–2030",
       "Founder Bambu Spa",
@@ -93,9 +88,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Jawa Barat",
     image: getProfileImage("Setiawan Mardjuki.jpeg"),
     bio: "Director of PT Jababeka Tbk.",
-    expertise: ["Property Development", "Business Strategy", "Corporate Leadership"],
+    expertise: [
+      "Property Development",
+      "Business Strategy",
+      "Corporate Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director PT Jababeka Tbk"
+    ],
   },
   {
     id: "14",
@@ -107,9 +108,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "DKI Jakarta",
     image: getProfileImage("Bingar Egidius Situmorang.jpeg"),
     bio: "CEO of PT. Mustika Ratu Tbk.",
-    expertise: ["Beauty Industry", "Consumer Goods", "Business Leadership"],
+    expertise: [
+      "Beauty Industry",
+      "Consumer Goods",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT. Mustika Ratu Tbk"
+    ],
   },
   {
     id: "15",
@@ -121,23 +128,50 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Banten",
     image: getProfileImage("Calvin Lukmantara.jpeg"),
     bio: "Business leader with roles across Tangcity Superblock, Novotel Tangerang, and Kumparan.",
-    expertise: ["Property Development", "Hospitality", "Media", "Entrepreneurship"],
+    expertise: [
+      "Property Development",
+      "Hospitality",
+      "Media",
+      "Entrepreneurship"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur Tangcity Superblock",
+      "Vice President Director Novotel Tangerang",
+      "Co-Founder Kumparan"
+    ],
   },
   {
     id: "16",
     slug: "helmy-yahya",
-    name: "Helmy Yahya",
-    title: "Public Figure",
-    company: "Independent",
-    industry: "Public Figure",
+    name: "Helmy Yahya, MPAcc, Akt., CPMA, CA",
+    title: "Public Figure & Business Leader",
+    company: "Badarock Nusantara, R66 Media, Triwarsana, Metropolis Realty, PT Neomed Ikhlas Hub, One Goal Partners, Jobseekers Company, dan IKANAS STAN",
+    industry: "Media, Entertainment & Business",
     province: "DKI Jakarta",
     image: getProfileImage("Helmy Yahya.jpeg"),
-    bio: "Public figure and business leader.",
-    expertise: ["Public Speaking", "Media", "Leadership"],
+    bio: "Helmy Yahya, MPAcc, Akt., CPMA, CA, merupakan public figure, entrepreneur, komunikator, dan business leader Indonesia yang memiliki pengalaman panjang di industri media, entertainment, bisnis, dan public speaking. Ia pernah menjabat sebagai Direktur Utama TVRI serta memimpin berbagai perusahaan di bidang media, produksi televisi, properti, dan bisnis. Helmy juga aktif sebagai communication coach dan pembicara dalam bidang public speaking, communication, negotiation, pitching, dan personal branding.",
+    expertise: [
+      "Public Speaking",
+      "Communication",
+      "Media & Broadcasting",
+      "Business Leadership",
+      "Entrepreneurship",
+      "Presentation",
+      "Negotiation",
+      "Personal Branding",
+      "Entertainment",
+      "Property"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur Utama TVRI 2017–2020",
+      "Chairman R66 Media",
+      "CEO Badarock Nusantara",
+      "30+ Tahun Pengalaman di Media & Entertainment",
+      "Business & Leadership Speaker",
+      "Public Speaking & Communication Coach"
+    ]
   },
   {
     id: "17",
@@ -151,7 +185,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "President Director of PT Tiki Jalur Nugraha Ekakurir (JNE).",
     expertise: ["Logistics", "Supply Chain Management", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "President Director PT Tiki Jalur Nugraha Ekakurir (JNE)"
+    ],
   },
   {
     id: "19",
@@ -165,7 +201,11 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Komisaris Utama at PT Perdana Gapuraprima and Komisaris at PT. Graha Azura and PT. Best Prima Indonesia.",
     expertise: ["Property Development", "Corporate Governance", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Komisaris Utama PT Perdana Gapuraprima",
+      "Komisaris PT. Graha Azura",
+      "Komisaris PT. Best Prima Indonesia"
+    ],
   },
   {
     id: "20",
@@ -179,7 +219,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Ketua Umum of Asosiasi Penambang Nickel Indonesia (APNI).",
     expertise: ["Mining", "Nickel Industry", "Association Leadership", "Strategic Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Ketua Umum Asosiasi Penambang Nickel Indonesia (APNI)"
+    ],
   },
   {
     id: "21",
@@ -193,7 +235,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Presiden Komisaris (Independen) of PT. Karya Pacific Energy Tbk.",
     expertise: ["Energy", "Corporate Governance", "Strategic Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Presiden Komisaris (Independen) PT. Karya Pacific Energy Tbk"
+    ],
   },
   {
     id: "22",
@@ -207,7 +251,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Founder of PT. Mobil Anak Bangsa (MAB).",
     expertise: ["Automotive", "Entrepreneurship", "Strategic Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Founder PT. Mobil Anak Bangsa (MAB)"
+    ],
   },
   {
     id: "23",
@@ -221,7 +267,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Menteri Dalam Negeri Republik Indonesia.",
     expertise: ["Public Administration", "Government Leadership", "National Policy"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Menteri Dalam Negeri Republik Indonesia"
+    ],
   },
   {
     id: "24",
@@ -235,7 +283,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of Media Infobrand Group.",
     expertise: ["Media", "Brand Strategy", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO Media Infobrand Group"
+    ],
   },
   {
     id: "25",
@@ -249,7 +299,10 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Chief Of Bussiness Development at Triniti Land and Investment Representative at DreamVille Super Beach Club.",
     expertise: ["Business Development", "Investment", "Property", "Hospitality"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Chief Of Bussiness Development Triniti Land",
+      "Investment Representative DreamVille Super Beach Club"
+    ],
   },
   {
     id: "26",
@@ -263,7 +316,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Senior Transformation Director at PT Novus Technologies Pte Ltd.",
     expertise: ["Business Transformation", "Technology", "Strategic Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Senior Transformation Director PT Novus Technologies Pte Ltd"
+    ],
   },
   {
     id: "27",
@@ -277,7 +332,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Presiden Direktur of PT. Bhumyamca Sekawan.",
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Presiden Direktur PT. Bhumyamca Sekawan"
+    ],
   },
   {
     id: "28",
@@ -291,7 +348,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of PT. Berkat Elektrik Sejati Tangguh.",
     expertise: ["Energy", "Operations", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT. Berkat Elektrik Sejati Tangguh"
+    ],
   },
   {
     id: "29",
@@ -305,7 +364,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of PT Dusgluck.",
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT Dusgluck"
+    ],
   },
   {
     id: "30",
@@ -319,7 +380,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Director of PT Bondor Indonesia.",
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director PT Bondor Indonesia"
+    ],
   },
   {
     id: "31",
@@ -333,7 +396,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "President Commissioner of Meratus Line.",
     expertise: ["Logistics", "Maritime Operations", "Corporate Governance"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "President Commissioner Meratus Line"
+    ],
   },
   {
     id: "32",
@@ -347,7 +412,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of PT Carvil Abadi (Carvil).",
     expertise: ["Fashion", "Consumer Goods", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT Carvil Abadi (Carvil)"
+    ],
   },
   {
     id: "33",
@@ -361,7 +428,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "President Director of PT Murni Solusindo Nusantara.",
     expertise: ["Technology", "Operations", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "President Director PT Murni Solusindo Nusantara"
+    ],
   },
   {
     id: "34",
@@ -375,7 +444,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Direktur of PT Prima Bikreasindo Indotama.",
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Prima Bikreasindo Indotama"
+    ],
   },
   {
     id: "35",
@@ -389,7 +460,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Commercial Director of PT Sinar Tambang Arthalestari (Semen Bima).",
     expertise: ["Commercial Strategy", "Construction Materials", "Business Development"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Commercial Director PT Sinar Tambang Arthalestari (Semen Bima)"
+    ],
   },
   {
     id: "36",
@@ -403,7 +476,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of PT Alternative Media Group.",
     expertise: ["Media", "Business Strategy", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT Alternative Media Group"
+    ],
   },
   {
     id: "37",
@@ -417,7 +492,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Direktur of PT Rimbo Panjang Sumber Makmur.",
     expertise: ["Agriculture", "Operations", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Rimbo Panjang Sumber Makmur"
+    ],
   },
   {
     id: "38",
@@ -431,7 +508,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of Generali Indonesia.",
     expertise: ["Insurance", "Financial Services", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO Generali Indonesia"
+    ],
   },
   {
     id: "39",
@@ -445,7 +524,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Director of PT Duta Niaga Esa.",
     expertise: ["Consumer Goods", "Business Strategy", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director PT Duta Niaga Esa"
+    ],
   },
   {
     id: "40",
@@ -459,7 +540,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Founder of Igor's Pastry.",
     expertise: ["Food & Beverage", "Entrepreneurship", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Founder Igor's Pastry"
+    ],
   },
   {
     id: "41",
@@ -473,7 +556,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of PT. XAVIER MARKS KENCANA.",
     expertise: ["Beauty Industry", "Business Leadership", "Consumer Goods"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT. XAVIER MARKS KENCANA"
+    ],
   },
   {
     id: "42",
@@ -487,7 +572,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Presiden Direktur of PT. Interteknis Suryaterang.",
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Presiden Direktur PT. Interteknis Suryaterang"
+    ],
   },
   {
     id: "43",
@@ -501,7 +588,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Director and Co-Founder of Pierian LSAF Pte Ltd.",
     expertise: ["Entrepreneurship", "Technology", "Business Strategy"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director & Co-Founder Pierian LSAF Pte Ltd"
+    ],
   },
   {
     id: "44",
@@ -515,7 +604,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Director of Jambuluwuk Hotels and Resort.",
     expertise: ["Hospitality", "Tourism", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director Jambuluwuk Hotels and Resort"
+    ],
   },
   {
     id: "45",
@@ -529,7 +620,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Komisaris Independen of PT WIR ASIA Tbk.",
     expertise: ["Technology", "Corporate Governance", "Strategic Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Komisaris Independen PT WIR ASIA Tbk"
+    ],
   },
   {
     id: "46",
@@ -543,7 +636,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of PT. Marindo Elang Perkasa.",
     expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT. Marindo Elang Perkasa"
+    ],
   },
   {
     id: "47",
@@ -557,7 +652,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Direktur of PT Pasir Mas.",
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Pasir Mas"
+    ],
   },
   {
     id: "48",
@@ -571,7 +668,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Director of PT Namalo Persada.",
     expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director PT Namalo Persada"
+    ],
   },
   {
     id: "49",
@@ -585,7 +684,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Director of PT Pantoru Mas (Tamara Center).",
     expertise: ["Property", "Business Strategy", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director PT Pantoru Mas (Tamara Center)"
+    ],
   },
   {
     id: "50",
@@ -599,7 +700,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "Direktur Utama of PT Primamitra Abadi Sentosa.",
     expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur Utama PT Primamitra Abadi Sentosa"
+    ],
   },
   {
     id: "51",
@@ -613,7 +716,9 @@ export const ceoProfiles: CEOProfile[] = [
     bio: "CEO of V2 Indonesia.",
     expertise: ["Technology", "Business Strategy", "Business Leadership"],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO V2 Indonesia"
+    ],
   },
   {
     id: "52",
@@ -625,9 +730,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Ir. Rudy Susanto.jpeg"),
     bio: "Direktur Utama of PT Megatech Engineer.",
-    expertise: ["Engineering", "Technology", "Business Leadership"],
+    expertise: [
+      "Engineering",
+      "Technology",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur Utama PT Megatech Engineer"
+    ],
   },
   {
     id: "53",
@@ -639,9 +750,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Siek Evelyn.jpeg"),
     bio: "Direktur of PT Elang Perkasa.",
-    expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
+    expertise: [
+      "Business Strategy",
+      "Operations",
+      "Corporate Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Elang Perkasa"
+    ],
   },
   {
     id: "54",
@@ -653,9 +770,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Silvia Kurniady.jpeg"),
     bio: "Founder of Hana Berkat Indonesia (Hana Glow).",
-    expertise: ["Beauty Industry", "Entrepreneurship", "Consumer Goods"],
+    expertise: [
+      "Beauty Industry",
+      "Entrepreneurship",
+      "Consumer Goods"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Founder Hana Berkat Indonesia (Hana Glow)"
+    ],
   },
   {
     id: "55",
@@ -667,9 +790,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Stephanus Prasasto.jpeg"),
     bio: "Direktur of PT Globalindo Rekayasa Eco Energi.",
-    expertise: ["Renewable Energy", "Engineering", "Business Leadership"],
+    expertise: [
+      "Renewable Energy",
+      "Engineering",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Globalindo Rekayasa Eco Energi"
+    ],
   },
   {
     id: "56",
@@ -681,9 +810,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Tedy The Kion.jpeg"),
     bio: "Direktur Utama of PT Netafarm Indoagri Surabaya.",
-    expertise: ["Agriculture", "Operations", "Business Leadership"],
+    expertise: [
+      "Agriculture",
+      "Operations",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur Utama PT Netafarm Indoagri Surabaya"
+    ],
   },
   {
     id: "57",
@@ -695,9 +830,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Ussyana.jpeg"),
     bio: "Direktur of PT Isi Bai As.",
-    expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
+    expertise: [
+      "Business Strategy",
+      "Operations",
+      "Corporate Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Isi Bai As"
+    ],
   },
   {
     id: "58",
@@ -709,9 +850,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Yogi Kristofer Gunario.jpeg"),
     bio: "Director of PT Gastri Gizi Sarana.",
-    expertise: ["Healthcare", "Operations", "Business Leadership"],
+    expertise: [
+      "Healthcare",
+      "Operations",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director PT Gastri Gizi Sarana"
+    ],
   },
   {
     id: "59",
@@ -723,9 +870,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Yucuanto Susetyo.jpeg"),
     bio: "CEO of Viar Motor Indonesia.",
-    expertise: ["Automotive", "Business Strategy", "Corporate Leadership"],
+    expertise: [
+      "Automotive",
+      "Business Strategy",
+      "Corporate Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO Viar Motor Indonesia"
+    ],
   },
   {
     id: "60",
@@ -737,9 +890,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Anton Hilman.jpeg"),
     bio: "CEO of PT Bali Ria Internasional.",
-    expertise: ["Tourism", "Hospitality", "Business Leadership"],
+    expertise: [
+      "Tourism",
+      "Hospitality",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT Bali Ria Internasional"
+    ],
   },
   {
     id: "61",
@@ -751,9 +910,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Benny Lianto.jpeg"),
     bio: "Rektor of Universitas Surabaya.",
-    expertise: ["Education", "Academic Leadership", "Strategic Leadership"],
+    expertise: [
+      "Education",
+      "Academic Leadership",
+      "Strategic Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Rektor Universitas Surabaya"
+    ],
   },
   {
     id: "62",
@@ -765,9 +930,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Arvin Hartono.jpeg"),
     bio: "Direktur of PT Pillar Karya Agung.",
-    expertise: ["Construction", "Operations", "Business Leadership"],
+    expertise: [
+      "Construction",
+      "Operations",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Pillar Karya Agung"
+    ],
   },
   {
     id: "63",
@@ -779,9 +950,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Hendry Hasiholan Batubara.jpeg"),
     bio: "Komisaris Independen of PT Mitra Adiperkasa Tbk.",
-    expertise: ["Retail", "Corporate Governance", "Strategic Leadership"],
+    expertise: [
+      "Retail",
+      "Corporate Governance",
+      "Strategic Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Komisaris Independen PT Mitra Adiperkasa Tbk"
+    ],
   },
   {
     id: "64",
@@ -793,9 +970,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Ijek Widyakrisnadi.webp"),
     bio: "Director of PT Kawan Lama Sejahtera.",
-    expertise: ["Retail", "Business Strategy", "Corporate Leadership"],
+    expertise: [
+      "Retail",
+      "Business Strategy",
+      "Corporate Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Director PT Kawan Lama Sejahtera"
+    ],
   },
   {
     id: "65",
@@ -807,9 +990,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Tasya Widya Krisnadi.jpeg"),
     bio: "Managing Director of PT Toys Games Indonesia.",
-    expertise: ["Retail", "Business Strategy", "Operations"],
+    expertise: [
+      "Retail",
+      "Business Strategy",
+      "Operations"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Managing Director PT Toys Games Indonesia"
+    ],
   },
   {
     id: "66",
@@ -821,9 +1010,17 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Rhenald Kasali.jpeg"),
     bio: "Guru Besar at Universitas Indonesia and Founder of Rumah Perubahan.",
-    expertise: ["Education", "Organizational Change", "Entrepreneurship", "Leadership"],
+    expertise: [
+      "Education",
+      "Organizational Change",
+      "Entrepreneurship",
+      "Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Guru Besar Universitas Indonesia",
+      "Founder Rumah Perubahan"
+    ],
   },
   {
     id: "67",
@@ -835,9 +1032,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Dewi Motik Pramono.jpeg"),
     bio: "Founder of IWAPI.",
-    expertise: ["Entrepreneurship", "Association Leadership", "Women's Economic Empowerment"],
+    expertise: [
+      "Entrepreneurship",
+      "Association Leadership",
+      "Women's Economic Empowerment"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Founder IWAPI",
+    ],
   },
   {
     id: "68",
@@ -849,9 +1052,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Ali Hanafiah.jpeg"),
     bio: "Commissioner of PT Era Hutama Energi.",
-    expertise: ["Energy", "Corporate Governance", "Strategic Leadership"],
+    expertise: [
+      "Energy",
+      "Corporate Governance",
+      "Strategic Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Commissioner PT Era Hutama Energi"
+    ],
   },
   {
     id: "69",
@@ -863,9 +1072,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Benny Ranti.jpeg"),
     bio: "CEO of PT Inforindo Intersolusi.",
-    expertise: ["Technology", "Business Strategy", "Corporate Leadership"],
+    expertise: [
+      "Technology",
+      "Business Strategy",
+      "Corporate Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "CEO PT Inforindo Intersolusi"
+    ],
   },
   {
     id: "70",
@@ -877,9 +1092,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Handaka Santosa.jpeg"),
     bio: "Direktur of PT Mitra Adiperkasa Tbk.",
-    expertise: ["Retail", "Business Strategy", "Operations"],
+    expertise: [
+      "Retail",
+      "Business Strategy",
+      "Operations"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Direktur PT Mitra Adiperkasa Tbk"
+    ],
   },
   {
     id: "71",
@@ -891,9 +1112,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Haryadi Sukamdani.jpeg"),
     bio: "Presiden Direktur of PT Hotel Sahid Jaya Internasional.",
-    expertise: ["Hospitality", "Tourism", "Business Leadership"],
+    expertise: [
+      "Hospitality",
+      "Tourism",
+      "Business Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Presiden Direktur PT Hotel Sahid Jaya Internasional"
+    ],
   },
   {
     id: "72",
@@ -905,9 +1132,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Husni Ali.jpeg"),
     bio: "Presiden Direktur of PT Indonesia Prima Property Tbk (OMRE).",
-    expertise: ["Property", "Business Strategy", "Corporate Leadership"],
+    expertise: [
+      "Property",
+      "Business Strategy",
+      "Corporate Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Presiden Direktur PT Indonesia Prima Property Tbk (OMRE)"
+    ],
   },
   {
     id: "73",
@@ -919,9 +1152,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Martin Minar Widjaja.jpeg"),
     bio: "Founder and Director of PT Javanesia Frestama Indonesia.",
-    expertise: ["Entrepreneurship", "Food & Beverage", "Business Strategy"],
+    expertise: [
+      "Entrepreneurship",
+      "Food & Beverage",
+      "Business Strategy"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Founder & Director PT Javanesia Frestama Indonesia"
+    ],
   },
   {
     id: "74",
@@ -933,9 +1172,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Meidy Katrin Lengkey.jpeg"),
     bio: "Sekretaris Umum of Asosiasi Penambang Nikel Indonesia.",
-    expertise: ["Mining", "Nickel Industry", "Association Leadership"],
+    expertise: [
+      "Mining",
+      "Nickel Industry",
+      "Association Leadership"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Sekretaris Umum Asosiasi Penambang Nikel Indonesia"
+    ],
   },
   {
     id: "75",
@@ -947,9 +1192,15 @@ export const ceoProfiles: CEOProfile[] = [
     province: "Nasional",
     image: getProfileImage("Paulus I Nugroho.jpeg"),
     bio: "Managing Director of PT Kapal Api Global.",
-    expertise: ["Consumer Goods", "Business Strategy", "Operations"],
+    expertise: [
+      "Consumer Goods",
+      "Business Strategy",
+      "Operations"
+    ],
     contact: {},
-    highlights: [],
+    highlights: [
+      "Managing Director PT Kapal Api Global"
+    ],
   }
 ];
 
