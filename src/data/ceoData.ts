@@ -48,7 +48,9 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Business Strategy", "Business Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Tudung Putra Putri Jaya"
+      "Direktur PT Tudung Putra Putri Jaya",
+      "Business Strategy & Leadership",
+      "Corporate Management"
     ],
   },
   {
@@ -75,7 +77,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Founder Bambu Spa",
       "Business Leader & Entrepreneur",
       "Hospitality & Wellness Industry",
-      "Business Development & Entrepreneurship"
+      "Property & Business Development"
     ],
   },
   {
@@ -95,7 +97,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Director PT Jababeka Tbk"
+      "Director PT Jababeka Tbk",
+      "Director PT Plaza Indonesia Jababeka",
+      "Commissioner PT Banten West Java Tourism Development",
+      "Property & Industrial Estate Development"
     ],
   },
   {
@@ -115,7 +120,11 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "CEO PT. Mustika Ratu Tbk"
+      "Presiden Direktur PT Mustika Ratu Tbk",
+      "Former Head of Retail Samsung Electronics",
+      "Consumer Goods & Beauty Industry",
+      "Sales & Retail Leadership",
+      "Experience at Mondelez International & Procter & Gamble"
     ],
   },
   {
@@ -138,7 +147,9 @@ export const ceoProfiles: CEOProfile[] = [
     highlights: [
       "Direktur Tangcity Superblock",
       "Vice President Director Novotel Tangerang",
-      "Co-Founder Kumparan"
+      "Co-Founder Kumparan",
+      "Property & Hospitality Leadership",
+      "Media & Entrepreneurship"
     ],
   },
   {
@@ -186,7 +197,9 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Logistics", "Supply Chain Management", "Business Leadership"],
     contact: {},
     highlights: [
-      "President Director PT Tiki Jalur Nugraha Ekakurir (JNE)"
+      "President Director PT Tiki Jalur Nugraha Ekakurir (JNE)",
+      "Logistics & Supply Chain Leadership",
+      "Business & Corporate Leadership"
     ],
   },
   {
@@ -204,7 +217,10 @@ export const ceoProfiles: CEOProfile[] = [
     highlights: [
       "Komisaris Utama PT Perdana Gapuraprima",
       "Komisaris PT. Graha Azura",
-      "Komisaris PT. Best Prima Indonesia"
+      "Komisaris PT. Best Prima Indonesia",
+      "35+ Tahun Pengalaman di Sektor Real Estate",
+      "Property Development & Investment",
+      "Gapuraprima Group Leadership"
     ],
   },
   {
@@ -220,7 +236,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Mining", "Nickel Industry", "Association Leadership", "Strategic Leadership"],
     contact: {},
     highlights: [
-      "Ketua Umum Asosiasi Penambang Nickel Indonesia (APNI)"
+      "Ketua Umum Asosiasi Penambang Nickel Indonesia (APNI)",
+      "Mining & Nickel Industry Leadership",
+      "Association Leadership",
+      "Strategic Leadership"
     ],
   },
   {
@@ -236,7 +255,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Energy", "Corporate Governance", "Strategic Leadership"],
     contact: {},
     highlights: [
-      "Presiden Komisaris (Independen) PT. Karya Pacific Energy Tbk"
+      "Presiden Komisaris Independen PT Karya Pacific Energy Tbk",
+      "Kelompok Ahli Perbatasan RI Kementerian Dalam Negeri",
+      "Corporate Governance & Oversight",
+      "Strategic Leadership"
     ],
   },
   {
@@ -252,7 +274,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Automotive", "Entrepreneurship", "Strategic Leadership"],
     contact: {},
     highlights: [
-      "Founder PT. Mobil Anak Bangsa (MAB)"
+      "Founder PT. Mobil Anak Bangsa (MAB)",
+      "Electric Vehicle & Automotive Industry",
+      "Entrepreneurship",
+      "Strategic Leadership"
     ],
   },
   {
@@ -268,7 +293,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Public Administration", "Government Leadership", "National Policy"],
     contact: {},
     highlights: [
-      "Menteri Dalam Negeri Republik Indonesia"
+      "Menteri Dalam Negeri Republik Indonesia",
+      "Kepala BNPP",
+      "Mantan Kapolri",
+      "Public Administration & Government Leadership",
+      "National Policy & Governance"
     ],
   },
   {
@@ -284,7 +313,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Media", "Brand Strategy", "Business Leadership"],
     contact: {},
     highlights: [
-      "CEO Media Infobrand Group"
+      "CEO Media INFOBRAND Group",
+      "20+ Tahun Pengalaman di Media, Sales & Marketing",
+      "Founder & Business Leader di Industri Media",
+      "Brand & Business Communication",
+      "Entrepreneurship & Business Development"
     ],
   },
   {
@@ -300,8 +333,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Business Development", "Investment", "Property", "Hospitality"],
     contact: {},
     highlights: [
-      "Chief Of Bussiness Development Triniti Land",
-      "Investment Representative DreamVille Super Beach Club"
+      "Chief Of Business Development Triniti Land",
+      "Investment Representative DreamVille Super Beach Club",
+      "Co-Founder RSI International School",
+      "Real Estate & Investment",
+      "Education & Entrepreneurship"
     ],
   },
   {
@@ -317,7 +353,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Business Transformation", "Technology", "Strategic Leadership"],
     contact: {},
     highlights: [
-      "Senior Transformation Director PT Novus Technologies Pte Ltd"
+      "Senior Transformation Director Novus Technologies Pte Ltd",
+      "Former President of the Board PT Euronet Technologies Indonesia",
+      "Business Transformation & Technology",
+      "Mergers & Acquisitions",
+      "Government Liaison & Strategic Management"
     ],
   },
   {
@@ -333,7 +373,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "Presiden Direktur PT. Bhumyamca Sekawan"
+      "Presiden Direktur PT. Bhumyamca Sekawan",
+      "Commercial Real Estate Leadership",
+      "Cilandak Commercial Estate",
+      "Operations & Property Management",
+      "40+ Tahun Pengalaman di Dunia Bisnis"
     ],
   },
   {
@@ -349,7 +393,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Energy", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "CEO PT. Berkat Elektrik Sejati Tangguh"
+      "CEO PT. Berkat Elektrik Sejati Tangguh",
+      "Energy Industry",
+      "Operations & Business Management",
+      "Corporate Leadership"
     ],
   },
   {
@@ -365,7 +412,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "CEO PT Dusgluck"
+      "CEO PT Dusgluck",
+      "Manufacturing Industry",
+      "Operations Management",
+      "Business Strategy & Leadership"
     ],
   },
   {
@@ -381,7 +431,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "Director PT Bondor Indonesia"
+      "Director PT Bondor Indonesia",
+      "Manufacturing Industry",
+      "Operations & Business Management",
+      "Corporate Leadership"
     ],
   },
   {
@@ -397,7 +450,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Logistics", "Maritime Operations", "Corporate Governance"],
     contact: {},
     highlights: [
-      "President Commissioner Meratus Line"
+      "President Commissioner Meratus Line",
+      "Maritime & Logistics Industry",
+      "Corporate Governance",
+      "Strategic Leadership"
     ],
   },
   {
@@ -413,7 +469,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Fashion", "Consumer Goods", "Business Leadership"],
     contact: {},
     highlights: [
-      "CEO PT Carvil Abadi (Carvil)"
+      "CEO PT Carvil Abadi (Carvil)",
+      "Fashion & Apparel Industry",
+      "Consumer Goods",
+      "Business Leadership"
     ],
   },
   {
@@ -429,7 +488,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Technology", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "President Director PT Murni Solusindo Nusantara"
+      "President Director PT Murni Solusindo Nusantara",
+      "Digital Technology & IT Solutions",
+      "Retail Technology Transformation",
+      "Automation & Customer Experience",
+      "Technology Business Leadership"
     ],
   },
   {
@@ -445,7 +508,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Prima Bikreasindo Indotama"
+      "Direktur PT Prima Bikreasindo Indotama",
+      "Manufacturing Industry",
+      "Operations Management",
+      "Business Strategy & Corporate Leadership"
     ],
   },
   {
@@ -461,7 +527,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Commercial Strategy", "Construction Materials", "Business Development"],
     contact: {},
     highlights: [
-      "Commercial Director PT Sinar Tambang Arthalestari (Semen Bima)"
+      "Commercial Director PT Sinar Tambang Arthalestari (Semen Bima)",
+      "10+ Tahun di Commercial Leadership Semen Bima",
+      "Construction Materials Industry",
+      "Commercial Strategy & Business Development"
     ],
   },
   {
@@ -477,7 +546,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Media", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "CEO PT Alternative Media Group"
+      "CEO PT Alternative Media Group",
+      "Out-of-Home Media & Digital Media",
+      "Property, Manufacturing & IT Experience",
+      "Media & Business Leadership",
+      "Media Technology & Innovation"
     ],
   },
   {
@@ -493,7 +566,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Agriculture", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Rimbo Panjang Sumber Makmur"
+      "Direktur PT Rimbo Panjang Sumber Makmur",
+      "Agriculture Industry",
+      "Operations Management",
+      "Business Leadership"
     ],
   },
   {
@@ -509,7 +585,12 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Insurance", "Financial Services", "Business Leadership"],
     contact: {},
     highlights: [
-      "CEO Generali Indonesia"
+      "CEO Generali Indonesia",
+      "25+ Tahun Pengalaman di Insurance & Financial Services",
+      "Membangun Generali Indonesia dari Awal hingga Profit",
+      "Pengalaman di Bank Danamon, Citibank, Amex & AIG",
+      "Insurance, Banking & Capital Markets Leadership",
+      "Best CEO & Indonesia Most Admired CEO"
     ],
   },
   {
@@ -525,7 +606,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Consumer Goods", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Director PT Duta Niaga Esa"
+      "Director PT Duta Niaga Esa",
+      "Consumer Goods Industry",
+      "Business Strategy",
+      "Corporate Leadership"
     ],
   },
   {
@@ -541,7 +625,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Food & Beverage", "Entrepreneurship", "Business Leadership"],
     contact: {},
     highlights: [
-      "Founder Igor's Pastry"
+      "Founder Igor's Pastry",
+      "Pioneer Premium Pastry & Bakery",
+      "15+ Tahun Pengalaman F&B Hospitality",
+      "Food Quality & Healthy Pastry",
+      "Entrepreneurship & Brand Development"
     ],
   },
   {
@@ -557,7 +645,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Beauty Industry", "Business Leadership", "Consumer Goods"],
     contact: {},
     highlights: [
-      "CEO PT. XAVIER MARKS KENCANA"
+      "CEO PT. XAVIER MARKS KENCANA",
+      "Beauty & Personal Care Industry",
+      "Consumer Goods",
+      "Business Leadership"
     ],
   },
   {
@@ -573,7 +664,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "Presiden Direktur PT. Interteknis Suryaterang"
+      "Presiden Direktur PT. Interteknis Suryaterang",
+      "Manufacturing Industry",
+      "Operations & Business Leadership",
+      "Corporate Management"
     ],
   },
   {
@@ -589,7 +683,12 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Entrepreneurship", "Technology", "Business Strategy"],
     contact: {},
     highlights: [
-      "Director & Co-Founder Pierian LSAF Pte Ltd"
+      "Director & Co-Founder Pierian LSAF Pte Ltd",
+      "CEO & Founder London School of Accountancy and Finance",
+      "Chairperson ISCA Indonesia",
+      "20+ Tahun Pengalaman di Professional Accountancy & Education",
+      "Finance Automation & Digital Transformation",
+      "M&A Advisory & Business Consulting"
     ],
   },
   {
@@ -605,7 +704,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Hospitality", "Tourism", "Business Leadership"],
     contact: {},
     highlights: [
-      "Director Jambuluwuk Hotels and Resort"
+      "Director Jambuluwuk Hotels and Resort",
+      "Hospitality Industry",
+      "Tourism & Resort Management",
+      "Business Leadership"
     ],
   },
   {
@@ -621,7 +723,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Technology", "Corporate Governance", "Strategic Leadership"],
     contact: {},
     highlights: [
-      "Komisaris Independen PT WIR ASIA Tbk"
+      "Komisaris Independen PT WIR ASIA Tbk",
+      "Technology & Digital Industry",
+      "Corporate Governance",
+      "Strategic Leadership"
     ],
   },
   {
@@ -637,7 +742,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "CEO PT. Marindo Elang Perkasa"
+      "CEO PT. Marindo Elang Perkasa",
+      "Business Strategy",
+      "Operations Management",
+      "Corporate Leadership"
     ],
   },
   {
@@ -653,7 +761,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Pasir Mas"
+      "Direktur PT Pasir Mas",
+      "Manufacturing Industry",
+      "Operations Management",
+      "Business Strategy & Corporate Leadership"
     ],
   },
   {
@@ -669,7 +780,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Director PT Namalo Persada"
+      "Director PT Namalo Persada",
+      "20+ Tahun Pengalaman Profesional",
+      "Accounting & Business Analysis",
+      "Business Process Improvement",
+      "Corporate Leadership"
     ],
   },
   {
@@ -685,7 +800,10 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Property", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Director PT Pantoru Mas (Tamara Center)"
+      "Director PT Pantoru Mas (Tamara Center)",
+      "Property Development",
+      "Business Strategy",
+      "Corporate Leadership"
     ],
   },
   {
@@ -701,7 +819,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Direktur Utama PT Primamitra Abadi Sentosa"
+      "Managing Director Primamitra Abadi Sentosa",
+      "Director of Technology PT Margacipta Wirasentosa",
+      "Managing Director PT Spectrum Cahaya Nusantara",
+      "Security & Network Infrastructure",
+      "Technology & Business Solutions"
     ],
   },
   {
@@ -717,7 +839,11 @@ export const ceoProfiles: CEOProfile[] = [
     expertise: ["Technology", "Business Strategy", "Business Leadership"],
     contact: {},
     highlights: [
-      "CEO V2 Indonesia"
+      "Founder & CEO V2 Indonesia",
+      "30+ Tahun Pengalaman di Audio Visual Technology",
+      "Pioneer Digital Technology & AV Solutions",
+      "Immersive xR & Entertainment Technology",
+      "Technology Innovation & Business Development"
     ],
   },
   {
@@ -737,7 +863,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur Utama PT Megatech Engineer"
+      "Direktur Utama PT Megatech Engineer",
+      "Engineering & Technology",
+      "Business Leadership",
+      "Corporate Management"
     ],
   },
   {
@@ -757,7 +886,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Elang Perkasa"
+      "Direktur PT Elang Perkasa",
+      "Business Strategy",
+      "Operations Management",
+      "Corporate Leadership"
     ],
   },
   {
@@ -777,7 +909,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Founder Hana Berkat Indonesia (Hana Glow)"
+      "Founder Hana Berkat Indonesia (Hana Glow)",
+      "Beauty & Cosmetics Industry",
+      "Product Research & Development",
+      "Entrepreneurship & Brand Building"
     ],
   },
   {
@@ -797,7 +932,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Globalindo Rekayasa Eco Energi"
+      "Direktur PT Globalindo Rekayasa Eco Energi",
+      "Renewable Energy",
+      "Engineering & Technology",
+      "Business Leadership"
     ],
   },
   {
@@ -817,7 +955,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur Utama PT Netafarm Indoagri Surabaya"
+      "Direktur Utama PT Netafarm Indoagri Surabaya",
+      "Agriculture Industry",
+      "Operations Management",
+      "Business Leadership"
     ],
   },
   {
@@ -837,7 +978,11 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Isi Bai As"
+      "Direktur PT ISI BAI AS",
+      "Legal & Business Consulting",
+      "Business Management",
+      "Strategic Consulting",
+      "Legal Advisory & Compliance"
     ],
   },
   {
@@ -857,7 +1002,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Director PT Gastri Gizi Sarana"
+      "Director PT Gastri Gizi Sarana",
+      "Healthcare Industry",
+      "Operations Management",
+      "Business Leadership"
     ],
   },
   {
@@ -877,7 +1025,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "CEO Viar Motor Indonesia"
+      "CEO Viar Motor Indonesia",
+      "Automotive Industry",
+      "Business Strategy",
+      "Corporate Leadership"
     ],
   },
   {
@@ -897,7 +1048,10 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "CEO PT Bali Ria Internasional"
+      "CEO PT Bali Ria Internasional",
+      "Tourism & Hospitality Industry",
+      "Business Development",
+      "Hospitality Leadership"
     ],
   },
   {
@@ -917,10 +1071,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Rektor Universitas Surabaya"
+      "Rektor Universitas Surabaya",
+      "Academic Leadership",
+      "Higher Education Management",
+      "Strategic Leadership"
     ],
-  },
-  {
+  },  {
     id: "62",
     slug: "arvin-hartono",
     name: "Arvin Hartono",
@@ -937,10 +1093,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Pillar Karya Agung"
+      "Direktur PT Pillar Karya Agung",
+      "Construction Industry",
+      "Operations Management",
+      "Business Leadership"
     ],
-  },
-  {
+  },  {
     id: "63",
     slug: "hendry-hasiholan-batubara",
     name: "Hendry Hasiholan Batubara",
@@ -957,10 +1115,13 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Komisaris Independen PT Mitra Adiperkasa Tbk"
+      "Komisaris Independen PT Mitra Adiperkasa Tbk",
+      "Former Director PT Mitra Adiperkasa Tbk",
+      "President Director PT Sumarco Makmun Indah",
+      "Retail & Corporate Governance",
+      "Strategic Leadership"
     ],
-  },
-  {
+  },  {
     id: "64",
     slug: "ijek-widyakrisnadi",
     name: "Ijek Widyakrisnadi",
@@ -977,10 +1138,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Director PT Kawan Lama Sejahtera"
+      "Director PT Kawan Lama Sejahtera",
+      "Retail Industry",
+      "Business Strategy",
+      "Corporate Leadership"
     ],
-  },
-  {
+  },  {
     id: "65",
     slug: "tasya-widya-krisnadi",
     name: "Tasya Widya Krisnadi",
@@ -997,10 +1160,13 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Managing Director PT Toys Games Indonesia"
+      "Managing Director PT Toys Games Indonesia",
+      "Founder Toys Kingdom",
+      "Managing Director Pendopo & ATARU",
+      "Retail & Merchandising",
+      "Business Strategy & Sustainable Growth"
     ],
-  },
-  {
+  },  {
     id: "66",
     slug: "rhenald-kasali",
     name: "Prof. Rhenald Kasali, Ph.D.",
@@ -1018,11 +1184,13 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Guru Besar Universitas Indonesia",
-      "Founder Rumah Perubahan"
+      "Guru Besar Fakultas Ekonomi & Bisnis Universitas Indonesia",
+      "Founder Rumah Perubahan",
+      "Management & Organizational Change Expert",
+      "Author & Public Intellectual",
+      "Entrepreneurship & Leadership"
     ],
-  },
-  {
+  },  {
     id: "67",
     slug: "cri-puspa-dewi-motik-pramono",
     name: "Dr. Hj. Cri Puspa Dewi Motik Pramono, M.A., M.Si.",
@@ -1040,9 +1208,12 @@ export const ceoProfiles: CEOProfile[] = [
     contact: {},
     highlights: [
       "Founder IWAPI",
+      "Ketua Umum IWAPI 1982–1992",
+      "Founder Yayasan Putri Ayu",
+      "Women's Entrepreneurship & Economic Empowerment",
+      "Business & Association Leadership"
     ],
-  },
-  {
+  },  {
     id: "68",
     slug: "ali-hanafia-lijaya",
     name: "Ali Hanafia Lijaya",
@@ -1059,10 +1230,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Commissioner PT Era Hutama Energi"
+      "Commissioner PT Era Hutama Energi",
+      "Mining & Silica Sand Industry",
+      "Corporate Governance",
+      "Strategic Leadership"
     ],
-  },
-  {
+  },  {
     id: "69",
     slug: "benny-ranti",
     name: "Dr. Ir Benny Ranti, M.Sc",
@@ -1079,10 +1252,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "CEO PT Inforindo Intersolusi"
+      "CEO PT Inforindo Intersolusi",
+      "Technology Industry",
+      "Business Strategy",
+      "Corporate Leadership"
     ],
-  },
-  {
+  },  {
     id: "70",
     slug: "handaka-santosa",
     name: "Handaka Santosa",
@@ -1099,10 +1274,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Mitra Adiperkasa Tbk"
+      "Direktur PT Mitra Adiperkasa Tbk",
+      "Retail & Consumer Business",
+      "Business Strategy",
+      "Operations Management"
     ],
-  },
-  {
+  },  {
     id: "71",
     slug: "hariyadi-bs-sukamdani",
     name: "Ir. H. Hariyadi B.S Sukamdani, MM",
@@ -1119,10 +1296,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Presiden Direktur PT Hotel Sahid Jaya Internasional"
+      "Presiden Direktur PT Hotel Sahid Jaya Internasional",
+      "Hospitality & Tourism Industry",
+      "Hotel & Property Business",
+      "Business Leadership"
     ],
-  },
-  {
+  },  {
     id: "72",
     slug: "husni-ali",
     name: "Husni Ali",
@@ -1139,10 +1318,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Presiden Direktur PT Indonesia Prima Property Tbk (OMRE)"
+      "Presiden Direktur PT Indonesia Prima Property Tbk",
+      "Property Development",
+      "Corporate Strategy",
+      "Business Leadership"
     ],
-  },
-  {
+  },  {
     id: "73",
     slug: "martin-minar-widjaja",
     name: "Martin Minar Widjaja",
@@ -1159,10 +1340,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Founder & Director PT Javanesia Frestama Indonesia"
+      "Founder & Director PT Javanesia Frestama Indonesia",
+      "Food & Beverage Industry",
+      "Entrepreneurship",
+      "Business Strategy & Development"
     ],
-  },
-  {
+  },  {
     id: "74",
     slug: "meidy-katrin-lengkey",
     name: "Meidy Katrin Lengkey",
@@ -1179,10 +1362,12 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Sekretaris Umum Asosiasi Penambang Nikel Indonesia"
+      "Sekretaris Umum Asosiasi Penambang Nikel Indonesia",
+      "Nickel Mining Industry",
+      "Association Leadership",
+      "Industry Networking"
     ],
-  },
-  {
+  },  {
     id: "75",
     slug: "paulus-i-nugroho",
     name: "Paulus I Nugroho",
@@ -1199,9 +1384,13 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Managing Director PT Kapal Api Global"
+      "Managing Director PT Kapal Api Global",
+      "Consumer Goods Industry",
+      "Business Strategy",
+      "Operations & Corporate Leadership"
     ],
-  }
+  },
+
 ];
 
 export const industries = [
