@@ -4,14 +4,9 @@ const profileImages = import.meta.glob("../assets/*.{jpeg,jpg,png,webp}", {
   import: "default",
 }) as Record<string, string>;
 
-const getProfileImage = (fileName: string): string => {
-  const image = profileImages[`../assets/${fileName}`];
-
-  if (!image) {
-    throw new Error(`Missing CEO profile image: ${fileName}`);
-  }
-
-  return image;
+export const getProfileImage = (filename: string) => {
+  const imagePath = `../assets/${filename}`;
+  return profileImages[imagePath] ?? "";
 };
 
 export interface CEOProfile {
@@ -35,22 +30,23 @@ export interface CEOProfile {
 }
 
 export const ceoProfiles: CEOProfile[] = [
-  {
-    id: "51",
-    slug: "rudi-eko-hartono",
-    name: "Rudi Eko Hartono",
-    title: "Direktur",
-    company: "PT Tudung Putra Putri Jaya",
-    industry: "Technology",
+    {
+    id: "22",
+    slug: "moeldoko",
+    name: "Dr. (H.C) Jenderal TNI (Purn.) Moeldoko, S.I.P, M.A",
+    title: "Founder",
+    company: "PT. Mobil Anak Bangsa (MAB)",
+    industry: "Automotive",
     province: "Nasional",
-    image: getProfileImage("Rudi Eko Hartono.jpeg"),
-    bio: "Direktur PT Tudung Putra Putri Jaya.",
-    expertise: ["Business Strategy", "Business Leadership"],
+    image: getProfileImage("Moeldoko.jpeg"),
+    bio: "Founder of PT. Mobil Anak Bangsa (MAB).",
+    expertise: ["Automotive", "Entrepreneurship", "Strategic Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Tudung Putra Putri Jaya",
-      "Business Strategy & Leadership",
-      "Corporate Management"
+      "Founder PT. Mobil Anak Bangsa (MAB)",
+      "Electric Vehicle & Automotive Industry",
+      "Entrepreneurship",
+      "Strategic Leadership"
     ],
   },
   {
@@ -81,6 +77,26 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
+    id: "23",
+    slug: "muhammad-tito-karnavian",
+    name: "Jenderal Pol (Purn) Prof. Drs. H. Muhammad Tito Karnavian, M.A, Ph. D",
+    title: "Menteri Dalam Negeri",
+    company: "Kementerian Dalam Negeri Republik Indonesia",
+    industry: "Government",
+    province: "Nasional",
+    image: getProfileImage("Tito Karnavian.jpeg"),
+    bio: "Menteri Dalam Negeri Republik Indonesia.",
+    expertise: ["Public Administration", "Government Leadership", "National Policy"],
+    contact: {},
+    highlights: [
+      "Menteri Dalam Negeri Republik Indonesia",
+      "Kepala BNPP",
+      "Mantan Kapolri",
+      "Public Administration & Government Leadership",
+      "National Policy & Governance"
+    ],
+  },
+  {
     id: "13",
     slug: "setiawan-mardjuki",
     name: "Setiawan Mardjuki",
@@ -104,6 +120,24 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
+    id: "51",
+    slug: "rudi-eko-hartono",
+    name: "Rudi Eko Hartono",
+    title: "Director",
+    company: "PT Tudung Putra Putri Jaya",
+    industry: "Technology",
+    province: "Nasional",
+    image: getProfileImage("Rudi Eko Hartono.jpeg"),
+    bio: "Director PT Tudung Putra Putri Jaya.",
+    expertise: ["Business Strategy", "Business Leadership"],
+    contact: {},
+    highlights: [
+      "Director PT Tudung Putra Putri Jaya",
+      "Business Strategy & Leadership",
+      "Corporate Management"
+    ],
+  },
+  {
     id: "14",
     slug: "bingar-egidius-situmorang",
     name: "Bingar Egidius Situmorang",
@@ -120,7 +154,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Presiden Direktur PT Mustika Ratu Tbk",
+      "Presiden Director PT Mustika Ratu Tbk",
       "Former Head of Retail Samsung Electronics",
       "Consumer Goods & Beauty Industry",
       "Sales & Retail Leadership",
@@ -131,7 +165,7 @@ export const ceoProfiles: CEOProfile[] = [
     id: "15",
     slug: "calvin-lukmantara",
     name: "Calvin Lukmantara",
-    title: "Direktur, Vice President Director & Co-Founder",
+    title: "Director, Vice President Director & Co-Founder",
     company: "Tangcity Superblock, Novotel Tangerang & Kumparan",
     industry: "Property & Hospitality",
     province: "Banten",
@@ -145,7 +179,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur Tangcity Superblock",
+      "Director Tangcity Superblock",
       "Vice President Director Novotel Tangerang",
       "Co-Founder Kumparan",
       "Property & Hospitality Leadership",
@@ -161,7 +195,7 @@ export const ceoProfiles: CEOProfile[] = [
     industry: "Media, Entertainment & Business",
     province: "DKI Jakarta",
     image: getProfileImage("Helmy Yahya.jpeg"),
-    bio: "Helmy Yahya, MPAcc, Akt., CPMA, CA, merupakan public figure, entrepreneur, komunikator, dan business leader Indonesia yang memiliki pengalaman panjang di industri media, entertainment, bisnis, dan public speaking. Ia pernah menjabat sebagai Direktur Utama TVRI serta memimpin berbagai perusahaan di bidang media, produksi televisi, properti, dan bisnis. Helmy juga aktif sebagai communication coach dan pembicara dalam bidang public speaking, communication, negotiation, pitching, dan personal branding.",
+    bio: "Helmy Yahya, MPAcc, Akt., CPMA, CA, merupakan public figure, entrepreneur, komunikator, dan business leader Indonesia yang memiliki pengalaman panjang di industri media, entertainment, bisnis, dan public speaking. Ia pernah menjabat sebagai Director Utama TVRI serta memimpin berbagai perusahaan di bidang media, produksi televisi, properti, dan bisnis. Helmy juga aktif sebagai communication coach dan pembicara dalam bidang public speaking, communication, negotiation, pitching, dan personal branding.",
     expertise: [
       "Public Speaking",
       "Communication",
@@ -176,7 +210,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur Utama TVRI 2017–2020",
+      "Director Utama TVRI 2017–2020",
       "Chairman R66 Media",
       "CEO Badarock Nusantara",
       "30+ Tahun Pengalaman di Media & Entertainment",
@@ -262,45 +296,6 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "22",
-    slug: "moeldoko",
-    name: "Dr. (H.C) Jenderal TNI (Purn.) Moeldoko, S.I.P, M.A",
-    title: "Founder",
-    company: "PT. Mobil Anak Bangsa (MAB)",
-    industry: "Automotive",
-    province: "Nasional",
-    image: getProfileImage("Moeldoko.jpeg"),
-    bio: "Founder of PT. Mobil Anak Bangsa (MAB).",
-    expertise: ["Automotive", "Entrepreneurship", "Strategic Leadership"],
-    contact: {},
-    highlights: [
-      "Founder PT. Mobil Anak Bangsa (MAB)",
-      "Electric Vehicle & Automotive Industry",
-      "Entrepreneurship",
-      "Strategic Leadership"
-    ],
-  },
-  {
-    id: "23",
-    slug: "muhammad-tito-karnavian",
-    name: "Jenderal Pol (Purn) Prof. Drs. H. Muhammad Tito Karnavian, M.A, Ph. D",
-    title: "Menteri Dalam Negeri",
-    company: "Kementerian Dalam Negeri Republik Indonesia",
-    industry: "Government",
-    province: "Nasional",
-    image: getProfileImage("Tito Karnavian.jpeg"),
-    bio: "Menteri Dalam Negeri Republik Indonesia.",
-    expertise: ["Public Administration", "Government Leadership", "National Policy"],
-    contact: {},
-    highlights: [
-      "Menteri Dalam Negeri Republik Indonesia",
-      "Kepala BNPP",
-      "Mantan Kapolri",
-      "Public Administration & Government Leadership",
-      "National Policy & Governance"
-    ],
-  },
-  {
     id: "24",
     slug: "susilowati-ningsih",
     name: "Susilowati Ningsih, SM, MM",
@@ -364,16 +359,16 @@ export const ceoProfiles: CEOProfile[] = [
     id: "27",
     slug: "achmad-umar",
     name: "Achmad Umar",
-    title: "Presiden Direktur",
+    title: "Presiden Director",
     company: "PT. Bhumyamca Sekawan",
     industry: "Manufacturing",
     province: "Nasional",
     image: getProfileImage("Achmad Umar.jpeg"),
-    bio: "Presiden Direktur of PT. Bhumyamca Sekawan.",
+    bio: "Presiden Director of PT. Bhumyamca Sekawan.",
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "Presiden Direktur PT. Bhumyamca Sekawan",
+      "Presiden Director PT. Bhumyamca Sekawan",
       "Commercial Real Estate Leadership",
       "Cilandak Commercial Estate",
       "Operations & Property Management",
@@ -499,16 +494,16 @@ export const ceoProfiles: CEOProfile[] = [
     id: "34",
     slug: "christine-gunadi",
     name: "Christine Gunadi",
-    title: "Direktur",
+    title: "Director",
     company: "PT Prima Bikreasindo Indotama",
     industry: "Manufacturing",
     province: "Nasional",
     image: getProfileImage("Christine Gunadi.jpeg"),
-    bio: "Direktur of PT Prima Bikreasindo Indotama.",
+    bio: "Director of PT Prima Bikreasindo Indotama.",
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Prima Bikreasindo Indotama",
+      "Director PT Prima Bikreasindo Indotama",
       "Manufacturing Industry",
       "Operations Management",
       "Business Strategy & Corporate Leadership"
@@ -557,16 +552,16 @@ export const ceoProfiles: CEOProfile[] = [
     id: "37",
     slug: "edy-chandra",
     name: "Edy Chandra",
-    title: "Direktur",
+    title: "Director",
     company: "PT Rimbo Panjang Sumber Makmur",
     industry: "Agriculture",
     province: "Nasional",
     image: getProfileImage("Edy Chandra.jpeg"),
-    bio: "Direktur of PT Rimbo Panjang Sumber Makmur.",
+    bio: "Director of PT Rimbo Panjang Sumber Makmur.",
     expertise: ["Agriculture", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Rimbo Panjang Sumber Makmur",
+      "Director PT Rimbo Panjang Sumber Makmur",
       "Agriculture Industry",
       "Operations Management",
       "Business Leadership"
@@ -655,16 +650,16 @@ export const ceoProfiles: CEOProfile[] = [
     id: "42",
     slug: "lassi-filgo",
     name: "Lassi Filgo",
-    title: "Presiden Direktur",
+    title: "Presiden Director",
     company: "PT. Interteknis Suryaterang",
     industry: "Manufacturing",
     province: "Nasional",
     image: getProfileImage("Lassi Filgo.jpeg"),
-    bio: "Presiden Direktur of PT. Interteknis Suryaterang.",
+    bio: "Presiden Director of PT. Interteknis Suryaterang.",
     expertise: ["Manufacturing", "Operations", "Business Leadership"],
     contact: {},
     highlights: [
-      "Presiden Direktur PT. Interteknis Suryaterang",
+      "Presiden Director PT. Interteknis Suryaterang",
       "Manufacturing Industry",
       "Operations & Business Leadership",
       "Corporate Management"
@@ -752,16 +747,16 @@ export const ceoProfiles: CEOProfile[] = [
     id: "47",
     slug: "reza-bagus",
     name: "Reza Bagus",
-    title: "Direktur",
+    title: "Director",
     company: "PT Pasir Mas",
     industry: "Manufacturing",
     province: "Nasional",
     image: getProfileImage("Reza Bagus.jpeg"),
-    bio: "Direktur of PT Pasir Mas.",
+    bio: "Director of PT Pasir Mas.",
     expertise: ["Operations", "Business Strategy", "Corporate Leadership"],
     contact: {},
     highlights: [
-      "Direktur PT Pasir Mas",
+      "Director PT Pasir Mas",
       "Manufacturing Industry",
       "Operations Management",
       "Business Strategy & Corporate Leadership"
@@ -810,12 +805,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "50",
     slug: "robert-tan",
     name: "Robert Tan",
-    title: "Direktur Utama",
+    title: "Director Utama",
     company: "PT Primamitra Abadi Sentosa",
     industry: "Business Services",
     province: "Nasional",
     image: getProfileImage("Robert Tan.jpeg"),
-    bio: "Direktur Utama of PT Primamitra Abadi Sentosa.",
+    bio: "Director Utama of PT Primamitra Abadi Sentosa.",
     expertise: ["Business Strategy", "Operations", "Corporate Leadership"],
     contact: {},
     highlights: [
@@ -850,12 +845,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "52",
     slug: "rudy-susanto",
     name: "Ir. Rudy Susanto",
-    title: "Direktur Utama",
+    title: "Director Utama",
     company: "PT Megatech Engineer",
     industry: "Technology",
     province: "Nasional",
     image: getProfileImage("Ir. Rudy Susanto.jpeg"),
-    bio: "Direktur Utama of PT Megatech Engineer.",
+    bio: "Director Utama of PT Megatech Engineer.",
     expertise: [
       "Engineering",
       "Technology",
@@ -863,7 +858,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur Utama PT Megatech Engineer",
+      "Director Utama PT Megatech Engineer",
       "Engineering & Technology",
       "Business Leadership",
       "Corporate Management"
@@ -873,12 +868,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "53",
     slug: "siek-evelyn",
     name: "Siek Evelyn",
-    title: "Direktur",
+    title: "Director",
     company: "PT Elang Perkasa",
     industry: "Business Services",
     province: "Nasional",
     image: getProfileImage("Siek Evelyn.jpeg"),
-    bio: "Direktur of PT Elang Perkasa.",
+    bio: "Director of PT Elang Perkasa.",
     expertise: [
       "Business Strategy",
       "Operations",
@@ -886,7 +881,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Elang Perkasa",
+      "Director PT Elang Perkasa",
       "Business Strategy",
       "Operations Management",
       "Corporate Leadership"
@@ -919,12 +914,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "55",
     slug: "stephanus-prasasto-suwargono",
     name: "Stephanus Prasasto Suwargono",
-    title: "Direktur",
+    title: "Director",
     company: "PT Globalindo Rekayasa Eco Energi",
     industry: "Renewable Energy",
     province: "Nasional",
     image: getProfileImage("Stephanus Prasasto.jpeg"),
-    bio: "Direktur of PT Globalindo Rekayasa Eco Energi.",
+    bio: "Director of PT Globalindo Rekayasa Eco Energi.",
     expertise: [
       "Renewable Energy",
       "Engineering",
@@ -932,7 +927,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Globalindo Rekayasa Eco Energi",
+      "Director PT Globalindo Rekayasa Eco Energi",
       "Renewable Energy",
       "Engineering & Technology",
       "Business Leadership"
@@ -942,12 +937,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "56",
     slug: "tedy-the-kion",
     name: "Tedy The Kion",
-    title: "Direktur Utama",
+    title: "Director Utama",
     company: "PT Netafarm Indoagri Surabaya",
     industry: "Agriculture",
     province: "Nasional",
     image: getProfileImage("Tedy The Kion.jpeg"),
-    bio: "Direktur Utama of PT Netafarm Indoagri Surabaya.",
+    bio: "Director Utama of PT Netafarm Indoagri Surabaya.",
     expertise: [
       "Agriculture",
       "Operations",
@@ -955,7 +950,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur Utama PT Netafarm Indoagri Surabaya",
+      "Director Utama PT Netafarm Indoagri Surabaya",
       "Agriculture Industry",
       "Operations Management",
       "Business Leadership"
@@ -965,12 +960,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "57",
     slug: "ussyana-dethan",
     name: "Ussyana Dethan",
-    title: "Direktur",
+    title: "Director",
     company: "PT Isi Bai As",
     industry: "Business Services",
     province: "Nasional",
     image: getProfileImage("Ussyana.jpeg"),
-    bio: "Direktur of PT Isi Bai As.",
+    bio: "Director of PT Isi Bai As.",
     expertise: [
       "Business Strategy",
       "Operations",
@@ -978,7 +973,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT ISI BAI AS",
+      "Director PT ISI BAI AS",
       "Legal & Business Consulting",
       "Business Management",
       "Strategic Consulting",
@@ -1080,12 +1075,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "62",
     slug: "arvin-hartono",
     name: "Arvin Hartono",
-    title: "Direktur",
+    title: "Director",
     company: "PT Pillar Karya Agung",
     industry: "Construction",
     province: "Nasional",
     image: getProfileImage("Arvin Hartono.jpeg"),
-    bio: "Direktur of PT Pillar Karya Agung.",
+    bio: "Director of PT Pillar Karya Agung.",
     expertise: [
       "Construction",
       "Operations",
@@ -1093,7 +1088,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Pillar Karya Agung",
+      "Director PT Pillar Karya Agung",
       "Construction Industry",
       "Operations Management",
       "Business Leadership"
@@ -1261,12 +1256,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "70",
     slug: "handaka-santosa",
     name: "Handaka Santosa",
-    title: "Direktur",
+    title: "Director",
     company: "PT Mitra Adiperkasa Tbk",
     industry: "Retail & E-commerce",
     province: "Nasional",
     image: getProfileImage("Handaka Santosa.jpeg"),
-    bio: "Direktur of PT Mitra Adiperkasa Tbk.",
+    bio: "Director of PT Mitra Adiperkasa Tbk.",
     expertise: [
       "Retail",
       "Business Strategy",
@@ -1274,7 +1269,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Direktur PT Mitra Adiperkasa Tbk",
+      "Director PT Mitra Adiperkasa Tbk",
       "Retail & Consumer Business",
       "Business Strategy",
       "Operations Management"
@@ -1283,12 +1278,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "71",
     slug: "hariyadi-bs-sukamdani",
     name: "Ir. H. Hariyadi B.S Sukamdani, MM",
-    title: "Presiden Direktur",
+    title: "Presiden Director",
     company: "PT Hotel Sahid Jaya Internasional",
     industry: "Tourism & Hospitality",
     province: "Nasional",
     image: getProfileImage("Haryadi Sukamdani.jpeg"),
-    bio: "Presiden Direktur of PT Hotel Sahid Jaya Internasional.",
+    bio: "Presiden Director of PT Hotel Sahid Jaya Internasional.",
     expertise: [
       "Hospitality",
       "Tourism",
@@ -1296,7 +1291,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Presiden Direktur PT Hotel Sahid Jaya Internasional",
+      "Presiden Director PT Hotel Sahid Jaya Internasional",
       "Hospitality & Tourism Industry",
       "Hotel & Property Business",
       "Business Leadership"
@@ -1305,12 +1300,12 @@ export const ceoProfiles: CEOProfile[] = [
     id: "72",
     slug: "husni-ali",
     name: "Husni Ali",
-    title: "Presiden Direktur",
+    title: "Presiden Director",
     company: "PT Indonesia Prima Property Tbk (OMRE)",
     industry: "Property",
     province: "Nasional",
     image: getProfileImage("Husni Ali.jpeg"),
-    bio: "Presiden Direktur of PT Indonesia Prima Property Tbk (OMRE).",
+    bio: "Presiden Director of PT Indonesia Prima Property Tbk (OMRE).",
     expertise: [
       "Property",
       "Business Strategy",
@@ -1318,7 +1313,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
     contact: {},
     highlights: [
-      "Presiden Direktur PT Indonesia Prima Property Tbk",
+      "Presiden Director PT Indonesia Prima Property Tbk",
       "Property Development",
       "Corporate Strategy",
       "Business Leadership"

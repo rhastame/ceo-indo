@@ -27,14 +27,14 @@ const CEODirectory = () => {
               className={`group relative bg-secondary/30 rounded-2xl overflow-hidden border border-border/20 hover:border-gold/50 transition-all duration-300 hover:scale-105 gold-glow fade-in-up-delay-${index === 0 ? '1' : index === 1 ? '2' : '1'}`}
             >
               {/* Image */}
-              <div className="relative h-64 overflow-hidden">
-                <img
-                  src={ceo.image}
-                  alt={ceo.name}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-              </div>
+            <div className="relative aspect-[3/4] overflow-hidden">
+              <img
+                src={ceo.image}
+                alt={ceo.name}
+                className="w-full h-full object-cover object-[center_25%] transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+            </div>
               
               {/* Content */}
               <div className="p-6">
