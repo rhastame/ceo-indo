@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Instagram, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -24,22 +24,16 @@ const Footer = () => {
             {/* Social Media */}
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://id.linkedin.com/company/ceo-indonesia" 
                 className="w-10 h-10 bg-card rounded-full flex items-center justify-center border border-border/20 hover:border-gold hover:bg-gold/10 transition-all duration-300 gold-glow"
               >
                 <Linkedin className="w-4 h-4 text-gold" />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/ceo.indonesia" 
                 className="w-10 h-10 bg-card rounded-full flex items-center justify-center border border-border/20 hover:border-gold hover:bg-gold/10 transition-all duration-300 gold-glow"
               >
                 <Instagram className="w-4 h-4 text-gold" />
-              </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 bg-card rounded-full flex items-center justify-center border border-border/20 hover:border-gold hover:bg-gold/10 transition-all duration-300 gold-glow"
-              >
-                <Twitter className="w-4 h-4 text-gold" />
               </a>
             </div>
           </div>
@@ -73,7 +67,12 @@ const Footer = () => {
               
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-gold" />
-                <p className="text-muted-foreground text-sm">+62 811 9802 880</p>
+                <a
+                  href="https://wa.me/628119802880"
+                  className="text-muted-foreground text-sm hover:text-gold transition-colors duration-300"
+                >
+                  +62 811 9802 880
+                </a>
               </div>
               
               <div className="flex items-center gap-3">

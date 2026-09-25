@@ -279,20 +279,18 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Google Maps Placeholder */}
+          {/* Google Maps */}
           <div className="mt-16">
             <h2 className="text-3xl font-bold text-gold mb-6 text-center">Visit Us</h2>
             <Card className="bg-card border-gold/20 max-w-6xl mx-auto">
               <CardContent className="p-0">
-                <div className="relative h-96 bg-gradient-to-br from-muted to-muted/50 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <MapPin className="w-16 h-16 text-gold mx-auto mb-4" />
-                      <p className="text-xl font-semibold text-foreground">Jakarta, Indonesia</p>
-                      <p className="text-muted-foreground">Google Maps integration placeholder</p>
-                    </div>
-                  </div>
-                </div>
+                <iframe
+                  title="Global CEO Indonesia location"
+                  src="https://www.google.com/maps?q=Jl.%20Pantai%20Indah%20Selatan%20Blok%20C19%2C%20RT.3%2FRW.3%2C%20Kamal%20Muara%2C%20Kecamatan%20Penjaringan%2C%20Jakarta%20Utara%2014470&output=embed"
+                  className="h-96 w-full rounded-lg border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </CardContent>
             </Card>
           </div>
