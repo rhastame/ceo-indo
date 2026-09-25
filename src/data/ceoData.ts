@@ -1385,6 +1385,25 @@ export const ceoProfiles: CEOProfile[] = [
       "Operations & Corporate Leadership"
     ],
   },
+  {
+    id: "76",
+    slug: "prasetio-erlimus",
+    name: "Prasetio Erlimus",
+    title: "CEO",
+    company: "Raho Club Premier",
+    industry: "Hospitality",
+    province: "Nasional",
+    image: getProfileImage("Prasetio Erlimus.jpeg"),
+    bio: "CEO of Raho Club Premier.",
+    expertise: ["Hospitality", "Business Leadership", "Entrepreneurship"],
+    contact: {},
+    highlights: [
+      "CEO Raho Club Premier",
+      "Hospitality Industry",
+      "Business Leadership",
+      "Entrepreneurship"
+    ],
+  },
 
 ];
 
