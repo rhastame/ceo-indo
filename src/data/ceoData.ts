@@ -1389,19 +1389,19 @@ export const ceoProfiles: CEOProfile[] = [
     id: "76",
     slug: "prasetio-erlimus",
     name: "Prasetio Erlimus",
-    title: "CEO",
-    company: "Raho Club Premier",
-    industry: "Hospitality",
+    title: "Director",
+    company: "PT Dunia Sehat Sentosa",
+    industry: "Healthcare",
     province: "Nasional",
     image: getProfileImage("Prasetio Erlimus.jpeg"),
-    bio: "CEO of Raho Club Premier.",
-    expertise: ["Hospitality", "Business Leadership", "Entrepreneurship"],
+    bio: "Director of PT Dunia Sehat Sentosa.",
+    expertise: ["Healthcare", "Business Leadership", "Operations"],
     contact: {},
     highlights: [
-      "CEO Raho Club Premier",
-      "Hospitality Industry",
+      "Director PT Dunia Sehat Sentosa",
+      "Healthcare Industry",
       "Business Leadership",
-      "Entrepreneurship"
+      "Operations"
     ],
   },
 
