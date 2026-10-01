@@ -31,7 +31,7 @@ export interface CEOProfile {
 
 export const ceoProfiles: CEOProfile[] = [
     {
-    id: "22",
+    id: "1",
     slug: "moeldoko",
     name: "Dr. (H.C) Jenderal TNI (Purn.) Moeldoko, S.I.P, M.A",
     title: "Founder",
@@ -50,11 +50,11 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "18",
+    id: "2",
     slug: "trisya-suherman",
     name: "Trisya Suherman, SE, CWC, Dipl. Cidesco SPA",
     title: "Ketua Umum",
-    company: "PT. Loiuse and Chelsea Indonesia (Bambu Spa), PT. Anugerah Kembang Sejahtera, PT. Wahyu Subur Berkah & PT. Tanjung Lesung Buana Makmur",
+    company: "PT. Louise and Chelsea Indonesia (Bambu Spa), PT. Anugerah Kembang Sejahtera, PT. Wahyu Subur Berkah & PT. Tanjung Lesung Buana Makmur",
     industry: "Business Leadership",
     province: "Nasional",
     image: getProfileImage("Trisya Suherman.png"),
@@ -77,7 +77,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "23",
+    id: "3",
     slug: "muhammad-tito-karnavian",
     name: "Jenderal Pol (Purn) Prof. Drs. H. Muhammad Tito Karnavian, M.A, Ph. D",
     title: "Menteri Dalam Negeri",
@@ -97,7 +97,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "13",
+    id: "4",
     slug: "setiawan-mardjuki",
     name: "Setiawan Mardjuki",
     title: "Director",
@@ -120,7 +120,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "51",
+    id: "5",
     slug: "rudi-eko-hartono",
     name: "Rudi Eko Hartono",
     title: "Director",
@@ -138,7 +138,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "14",
+    id: "6",
     slug: "bingar-egidius-situmorang",
     name: "Bingar Egidius Situmorang",
     title: "CEO",
@@ -162,7 +162,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "15",
+    id: "7",
     slug: "calvin-lukmantara",
     name: "Calvin Lukmantara",
     title: "Director, Vice President Director & Co-Founder",
@@ -187,7 +187,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "16",
+    id: "8",
     slug: "helmy-yahya",
     name: "Helmy Yahya, MPAcc, Akt., CPMA, CA",
     title: "Public Figure & Business Leader",
@@ -219,7 +219,7 @@ export const ceoProfiles: CEOProfile[] = [
     ]
   },
   {
-    id: "17",
+    id: "9",
     slug: "mohammad-feriadi",
     name: "Mohammad Feriadi",
     title: "President Director",
@@ -237,7 +237,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "19",
+    id: "10",
     slug: "rudy-margono",
     name: "Rudy Margono",
     title: "Komisaris Utama & Komisaris",
@@ -258,7 +258,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "20",
+    id: "11",
     slug: "nanan-soekarna",
     name: "Komjen. Pol (Purn) Drs. Nanan Soekarna, M. Kom",
     title: "Ketua Umum",
@@ -277,7 +277,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "21",
+    id: "12",
     slug: "hamidin",
     name: "Irjen Pol. (Purn.) Drs. H. Hamidin",
     title: "Presiden Komisaris (Independen)",
@@ -296,7 +296,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "24",
+    id: "13",
     slug: "susilowati-ningsih",
     name: "Susilowati Ningsih, SM, MM",
     title: "CEO",
@@ -316,7 +316,26 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "25",
+    id: "14",
+    slug: "prasetio-erlimus",
+    name: "Prasetio Erlimus",
+    title: "Director",
+    company: "PT Dunia Sehat Sentosa",
+    industry: "Healthcare",
+    province: "Nasional",
+    image: getProfileImage("Prasetio Erlimus.jpeg"),
+    bio: "Director of PT Dunia Sehat Sentosa.",
+    expertise: ["Healthcare", "Business Leadership", "Operations"],
+    contact: {},
+    highlights: [
+      "Director PT Dunia Sehat Sentosa",
+      "Healthcare Industry",
+      "Business Leadership",
+      "Operations"
+    ],
+  },
+  {
+    id: "15",
     slug: "virgo-riand-william-saputra",
     name: "Virgo Riand (William Saputra)",
     title: "Chief Of Bussiness Development & Investment Representative",
@@ -336,7 +355,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "26",
+    id: "16",
     slug: "melissiana-dharmawati",
     name: "Melissiana Dharmawati",
     title: "Senior Transformation Director",
@@ -356,7 +375,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "27",
+    id: "17",
     slug: "achmad-umar",
     name: "Achmad Umar",
     title: "Presiden Director",
@@ -376,7 +395,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "28",
+    id: "18",
     slug: "andy-arif-widjaja",
     name: "Andy Arif Widjaja",
     title: "CEO",
@@ -395,7 +414,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "29",
+    id: "19",
     slug: "andy-yaw",
     name: "Andy Yaw",
     title: "CEO",
@@ -414,7 +433,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "30",
+    id: "20",
     slug: "harris-gunario",
     name: "Harris Gunario",
     title: "Director",
@@ -433,7 +452,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "31",
+    id: "21",
     slug: "charles-menaro",
     name: "Charles Menaro",
     title: "President Commissioner",
@@ -452,7 +471,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "32",
+    id: "22",
     slug: "catherine-patinah",
     name: "Catherine Patinah",
     title: "CEO",
@@ -471,7 +490,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "33",
+    id: "23",
     slug: "christian-liadinata",
     name: "Christian Liadinata",
     title: "President Director",
@@ -491,7 +510,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "34",
+    id: "24",
     slug: "christine-gunadi",
     name: "Christine Gunadi",
     title: "Director",
@@ -510,7 +529,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "35",
+    id: "25",
     slug: "daniel-tedja",
     name: "Daniel Tedja",
     title: "Commercial Director",
@@ -529,7 +548,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "36",
+    id: "26",
     slug: "davy-makimian",
     name: "Davy Makimian",
     title: "CEO",
@@ -549,7 +568,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "37",
+    id: "27",
     slug: "edy-chandra",
     name: "Edy Chandra",
     title: "Director",
@@ -568,7 +587,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "38",
+    id: "28",
     slug: "edy-tuhirman",
     name: "Edy Tuhirman",
     title: "CEO",
@@ -589,7 +608,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "39",
+    id: "29",
     slug: "elizabeth-am-setiaatmadja",
     name: "Elizabeth A.M Setiaatmadja",
     title: "Director",
@@ -608,7 +627,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "40",
+    id: "30",
     slug: "innico-sjahandi",
     name: "Innico Sjahandi",
     title: "Founder",
@@ -628,7 +647,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "41",
+    id: "31",
     slug: "kenny-hartono",
     name: "Kenny Hartono",
     title: "CEO",
@@ -647,7 +666,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "42",
+    id: "32",
     slug: "lassi-filgo",
     name: "Lassi Filgo",
     title: "Presiden Director",
@@ -666,7 +685,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "43",
+    id: "33",
     slug: "manish-gidwani",
     name: "Manish Gidwani",
     title: "Director & Co-Founder",
@@ -687,7 +706,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "44",
+    id: "34",
     slug: "marchella-purwanika",
     name: "Marchella Purwanika",
     title: "Director",
@@ -706,7 +725,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "45",
+    id: "35",
     slug: "marco-iswara",
     name: "Marco Iswara",
     title: "Komisaris Independen",
@@ -725,7 +744,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "46",
+    id: "36",
     slug: "maringan-tobing",
     name: "Maringan Tobing, CATS, CCPS",
     title: "CEO",
@@ -744,7 +763,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "47",
+    id: "37",
     slug: "reza-bagus",
     name: "Reza Bagus",
     title: "Director",
@@ -763,7 +782,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "48",
+    id: "38",
     slug: "ricordias-domini-panggabean",
     name: "Ricordias Domini Panggabean",
     title: "Director",
@@ -783,7 +802,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "49",
+    id: "39",
     slug: "robert-daniel-suhardiman",
     name: "Ir. Robert Daniel Suhardiman, SH, MH",
     title: "Director",
@@ -802,7 +821,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "50",
+    id: "40",
     slug: "robert-tan",
     name: "Robert Tan",
     title: "Director Utama",
@@ -822,7 +841,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "51",
+    id: "41",
     slug: "rudi-hidayat",
     name: "Rudi Hidayat",
     title: "CEO",
@@ -842,7 +861,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "52",
+    id: "42",
     slug: "rudy-susanto",
     name: "Ir. Rudy Susanto",
     title: "Director Utama",
@@ -865,7 +884,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "53",
+    id: "43",
     slug: "siek-evelyn",
     name: "Siek Evelyn",
     title: "Director",
@@ -888,7 +907,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "54",
+    id: "44",
     slug: "silvia-kurniady",
     name: "Silvia Kurniady",
     title: "Founder",
@@ -911,7 +930,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "55",
+    id: "45",
     slug: "stephanus-prasasto-suwargono",
     name: "Stephanus Prasasto Suwargono",
     title: "Director",
@@ -934,7 +953,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "56",
+    id: "46",
     slug: "tedy-the-kion",
     name: "Tedy The Kion",
     title: "Director Utama",
@@ -957,7 +976,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "57",
+    id: "47",
     slug: "ussyana-dethan",
     name: "Ussyana Dethan",
     title: "Director",
@@ -981,7 +1000,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "58",
+    id: "48",
     slug: "yogi-kristofer-gunario",
     name: "Yogi Kristofer Gunario",
     title: "Director",
@@ -1004,7 +1023,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "59",
+    id: "49",
     slug: "yucuanto-susetyo",
     name: "Yucuanto Susetyo",
     title: "CEO",
@@ -1027,7 +1046,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "60",
+    id: "50",
     slug: "anthon-hilman",
     name: "Anthon Hilman",
     title: "CEO",
@@ -1050,7 +1069,7 @@ export const ceoProfiles: CEOProfile[] = [
     ],
   },
   {
-    id: "61",
+    id: "51",
     slug: "benny-lianto",
     name: "Dr.Ir Benny Lianto, M.M.B.A.T",
     title: "Rektor",
@@ -1072,7 +1091,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Strategic Leadership"
     ],
   },  {
-    id: "62",
+    id: "52",
     slug: "arvin-hartono",
     name: "Arvin Hartono",
     title: "Director",
@@ -1094,7 +1113,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Business Leadership"
     ],
   },  {
-    id: "63",
+    id: "53",
     slug: "hendry-hasiholan-batubara",
     name: "Hendry Hasiholan Batubara",
     title: "Komisaris Independen",
@@ -1117,7 +1136,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Strategic Leadership"
     ],
   },  {
-    id: "64",
+    id: "54",
     slug: "ijek-widyakrisnadi",
     name: "Ijek Widyakrisnadi",
     title: "Director",
@@ -1139,7 +1158,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Corporate Leadership"
     ],
   },  {
-    id: "65",
+    id: "55",
     slug: "tasya-widya-krisnadi",
     name: "Tasya Widya Krisnadi",
     title: "Managing Director",
@@ -1162,7 +1181,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Business Strategy & Sustainable Growth"
     ],
   },  {
-    id: "66",
+    id: "56",
     slug: "rhenald-kasali",
     name: "Prof. Rhenald Kasali, Ph.D.",
     title: "Guru Besar UI & Founder",
@@ -1186,7 +1205,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Entrepreneurship & Leadership"
     ],
   },  {
-    id: "67",
+    id: "57",
     slug: "cri-puspa-dewi-motik-pramono",
     name: "Dr. Hj. Cri Puspa Dewi Motik Pramono, M.A., M.Si.",
     title: "Founder",
@@ -1209,7 +1228,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Business & Association Leadership"
     ],
   },  {
-    id: "68",
+    id: "58",
     slug: "ali-hanafia-lijaya",
     name: "Ali Hanafia Lijaya",
     title: "Commissioner",
@@ -1231,7 +1250,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Strategic Leadership"
     ],
   },  {
-    id: "69",
+    id: "59",
     slug: "benny-ranti",
     name: "Dr. Ir Benny Ranti, M.Sc",
     title: "CEO",
@@ -1253,7 +1272,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Corporate Leadership"
     ],
   },  {
-    id: "70",
+    id: "60",
     slug: "handaka-santosa",
     name: "Handaka Santosa",
     title: "Director",
@@ -1275,7 +1294,7 @@ export const ceoProfiles: CEOProfile[] = [
       "Operations Management"
     ],
   },  {
-    id: "71",
+    id: "61",
     slug: "hariyadi-bs-sukamdani",
     name: "Ir. H. Hariyadi B.S Sukamdani, MM",
     title: "Presiden Director",
@@ -1296,8 +1315,9 @@ export const ceoProfiles: CEOProfile[] = [
       "Hotel & Property Business",
       "Business Leadership"
     ],
-  },  {
-    id: "72",
+  },
+  {
+    id: "62",
     slug: "husni-ali",
     name: "Husni Ali",
     title: "Presiden Director",
@@ -1318,8 +1338,9 @@ export const ceoProfiles: CEOProfile[] = [
       "Corporate Strategy",
       "Business Leadership"
     ],
-  },  {
-    id: "73",
+  },
+  {
+    id: "63",
     slug: "martin-minar-widjaja",
     name: "Martin Minar Widjaja",
     title: "Founder & Director",
@@ -1340,8 +1361,9 @@ export const ceoProfiles: CEOProfile[] = [
       "Entrepreneurship",
       "Business Strategy & Development"
     ],
-  },  {
-    id: "74",
+  },
+  {
+    id: "64",
     slug: "meidy-katrin-lengkey",
     name: "Meidy Katrin Lengkey",
     title: "Sekretaris Umum",
@@ -1362,8 +1384,9 @@ export const ceoProfiles: CEOProfile[] = [
       "Association Leadership",
       "Industry Networking"
     ],
-  },  {
-    id: "75",
+  },
+  {
+    id: "65",
     slug: "paulus-i-nugroho",
     name: "Paulus I Nugroho",
     title: "Managing Director",
@@ -1385,26 +1408,6 @@ export const ceoProfiles: CEOProfile[] = [
       "Operations & Corporate Leadership"
     ],
   },
-  {
-    id: "76",
-    slug: "prasetio-erlimus",
-    name: "Prasetio Erlimus",
-    title: "Director",
-    company: "PT Dunia Sehat Sentosa",
-    industry: "Healthcare",
-    province: "Nasional",
-    image: getProfileImage("Prasetio Erlimus.jpeg"),
-    bio: "Director of PT Dunia Sehat Sentosa.",
-    expertise: ["Healthcare", "Business Leadership", "Operations"],
-    contact: {},
-    highlights: [
-      "Director PT Dunia Sehat Sentosa",
-      "Healthcare Industry",
-      "Business Leadership",
-      "Operations"
-    ],
-  },
-
 ];
 
 export const industries = [
