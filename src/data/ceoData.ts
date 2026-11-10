@@ -611,19 +611,19 @@ export const ceoProfiles: CEOProfile[] = [
     id: "29",
     slug: "elizabeth-am-setiaatmadja",
     name: "Elizabeth A.M Setiaatmadja",
-    title: "Director",
-    company: "PT Duta Niaga Esa",
-    industry: "Consumer Goods",
+    title: "Strategic Networking Partner & Advisor",
+    company: "Liz Setiaatmadja",
+    industry: "Networking",
     province: "Nasional",
     image: getProfileImage("Elizabeth A.M. Setiaatmadja.jpeg"),
-    bio: "Director of PT Duta Niaga Esa.",
-    expertise: ["Consumer Goods", "Business Strategy", "Corporate Leadership"],
+    bio: "Strategic Networking Partner & Advisor at Liz Setiaatmadja.",
+    expertise: ["Networking", "Strategic Partnerships", "Business Advisory"],
     contact: {},
     highlights: [
-      "Director PT Duta Niaga Esa",
-      "Consumer Goods Industry",
-      "Business Strategy",
-      "Corporate Leadership"
+      "Strategic Networking Partner & Advisor",
+      "Networking Industry",
+      "Strategic Partnerships",
+      "Business Advisory"
     ],
   },
   {
@@ -1406,6 +1406,44 @@ export const ceoProfiles: CEOProfile[] = [
       "Consumer Goods Industry",
       "Business Strategy",
       "Operations & Corporate Leadership"
+    ],
+  },
+  {
+    id: "66",
+    slug: "rudi-sembiring-meliala",
+    name: "Rudi Sembiring Meliala",
+    title: "CEO/Director",
+    company: "PT Inbisnis Abadi Indonesia",
+    industry: "Law Firm, Property, Tourism & Trading",
+    province: "Nasional",
+    image: getProfileImage("Rudi Sembiring Meliala.jpeg"),
+    bio: "CEO/Director of PT Inbisnis Abadi Indonesia.",
+    expertise: ["Law Firm", "Property", "Tourism", "Trading"],
+    contact: {},
+    highlights: [
+      "CEO/Director PT Inbisnis Abadi Indonesia",
+      "Law Firm & Property",
+      "Tourism & Trading",
+      "Business Leadership"
+    ],
+  },
+  {
+    id: "67",
+    slug: "antonius-tony",
+    name: "Antonius Tony",
+    title: "President Director",
+    company: "PT Oto Royal Indonesia",
+    industry: "Manufacturing & F&B",
+    province: "Nasional",
+    image: getProfileImage("Antonius Tony.jpeg"),
+    bio: "President Director of PT Oto Royal Indonesia.",
+    expertise: ["Manufacturing", "Food & Beverage", "Restaurant Business"],
+    contact: {},
+    highlights: [
+      "President Director PT Oto Royal Indonesia",
+      "Manufacturing Industry",
+      "Food & Beverage (Restaurant)",
+      "Business Leadership"
     ],
   },
 ];
